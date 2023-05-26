@@ -3,7 +3,7 @@
 <H2> Contributors </h2>
 <ul>
   <li> Professor Tracy Shelanskey </li>
-  <li> Renante Labrador </li>
+  <li> Renante Labrador  </li>
  </ul>
 
 
