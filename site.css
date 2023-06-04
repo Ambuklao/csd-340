@@ -1,0 +1,27 @@
+body {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1, h2, h3, h4 {
+    background-color: #f1f1f1; /* Set your desired background color */
+    color: #333; /* Set a font color that contrasts well with the background */
+    border: 1px solid #D6A800; /* Set the border style and color */
+    padding: 10px; /* Set the padding around the content */
+    font-family: 'Roboto', sans-serif;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #D6A800;
+    text-decoration: underline;
+  }
+  
+  a:visited {
+    color: deepskyblue;
+    text-decoration: underline;
+  }
