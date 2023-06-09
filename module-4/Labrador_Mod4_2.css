@@ -1,0 +1,61 @@
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+  }
+
+  h3 {
+    font-weight: 500;
+    color: chocolate;
+  } 
+
+  .grid-container > div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #d0e5f7;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  figcaption {
+   font-size: .75em;
+    color: rgb(190, 8, 8);
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+  }
+    
+   a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: deepskyblue;
+    text-decoration: underline;
+}
+
+  a:active {
+    text-decoration: none;
+}
+   a:hover {
+    color: #3b048d;
+    text-decoration: underline;
+    font-weight: 300px;
+  }
+
+  .bottom-div {
+    float: right;
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+   
