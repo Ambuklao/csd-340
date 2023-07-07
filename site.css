@@ -6,11 +6,12 @@ body {
 }
 
 h1, h2, h3, h4 {
-    background-color: #f1f1f1; /* Set your desired background color */
+    background-color: lightskyblue; /* Set your desired background color */
     color: #333; /* Set a font color that contrasts well with the background */
     border: 1px solid #D6A800; /* Set the border style and color */
     padding: 10px; /* Set the padding around the content */
     font-family: 'Roboto', sans-serif;
+	border-radius: 5px;
   }
 
   a:link {
