@@ -1,0 +1,130 @@
+  body {
+    font-family: 'Roboto', sans-serif;
+	padding-left: 25px;
+  	padding-right: 25px;
+  	margin: 0 auto;
+  	overflow-x: hidden;
+  	line-height: 1.5;
+  	letter-spacing: 0.05em; 
+  	background-color: aliceblue;
+  }
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+  }
+
+  h3 {
+    font-weight: 500;
+  } 
+    
+  .container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px; 
+  }  
+
+  .left-aligned{
+    text-align: left;
+  }
+   
+  .left_div {
+    border: 1px solid red;
+    display: inline-table ;
+    width: 45%;
+    background-color: rgb(253, 252, 252);
+    border-radius: 15px;
+    padding: 10px;
+   
+ }
+
+  .right_div {
+    border: 1px dashed red;
+    display: inline-table ;
+    width: 45%;
+    background-color: rgb(253, 252, 252);
+    border-radius: 15px;
+    padding: 10px;
+    
+  }
+
+ .box:last-child {
+    width: 100%;
+    margin-top: 60%;
+  }
+  
+ ol {
+    border-radius: 15px;
+    padding: 10px;
+    list-style: decimal inside; 
+  }
+  
+ ul {
+    border-radius: 15px;
+    padding: 10px;
+    list-style: upper-roman inside;
+  }
+
+  a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+  a:active {
+    text-decoration: none;
+}
+   a:hover {
+    color: #3b048d;
+    text-decoration: underline;
+    font-weight: 300px;
+  }
+button  {
+	margin-right: 10px;
+ 	padding: 10px 10px;
+    background-color: lightskyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+	border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5)
+}
+
+footer{
+    background-color: #80d3fa;
+    width: 100%;
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: auto;
+    left: -3px;
+    display: flex;
+    justify-content: space-between;
+	top: 900px;
+ }
+
+.footer-right p  {
+  color: white;
+  font-weight: 400;
+  float: right;
+  padding-right: 10px;
+  font-style: italic;
+}
+
+.footer-left {
+color: white;
+padding-left: 10px;
+}
+
+footer a {
+text-decoration: none;
+color: white;
+}
+footer a:hover {
+text-decoration: underline;
+color:#333;
+font-weight: 400;
+}
+   
